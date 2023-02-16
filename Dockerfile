@@ -1,8 +1,8 @@
 FROM python:3.9
 
-COPY . val
+COPY . app
 
-WORKDIR /val
+WORKDIR /app
 
 RUN apt-get upgrade 
 RUN apt-get update 
